@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Nunito Sans Regular"), local("NunitoSans-Regular"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe0qMImSLYBIv1o4X1M8cceyI9tScg.woff2) format("woff2");
+    unicode-range: u+0102-0103, u+0110-0111, u+1ea0-1ef9, u+20ab;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Nunito Sans Regular"), local("NunitoSans-Regular"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe0qMImSLYBIv1o4X1M8ccezI9tScg.woff2) format("woff2");
+    unicode-range: u+0100-024f, u+0259, U+1E00-1EFF, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Nunito Sans Regular"), local("NunitoSans-Regular"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2) format("woff2");
+    unicode-range: U+0000-00FF, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local("Nunito Sans SemiBold"), local("NunitoSans-SemiBold"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe03MImSLYBIv1o4X1M8cc9iB85iU1EQVg.woff2) format("woff2");
+    unicode-range: u+0102-0103, u+0110-0111, u+1ea0-1ef9, u+20ab;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local("Nunito Sans SemiBold"), local("NunitoSans-SemiBold"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe03MImSLYBIv1o4X1M8cc9iB85jU1EQVg.woff2) format("woff2");
+    unicode-range: u+0100-024f, u+0259, U+1E00-1EFF, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local("Nunito Sans SemiBold"), local("NunitoSans-SemiBold"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe03MImSLYBIv1o4X1M8cc9iB85tU1E.woff2) format("woff2");
+    unicode-range: U+0000-00FF, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Nunito Sans Bold"), local("NunitoSans-Bold"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe03MImSLYBIv1o4X1M8cc8GBs5iU1EQVg.woff2) format("woff2");
+    unicode-range: u+0102-0103, u+0110-0111, u+1ea0-1ef9, u+20ab;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Nunito Sans Bold"), local("NunitoSans-Bold"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe03MImSLYBIv1o4X1M8cc8GBs5jU1EQVg.woff2) format("woff2");
+    unicode-range: u+0100-024f, u+0259, U+1E00-1EFF, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Nunito Sans Bold"), local("NunitoSans-Bold"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe03MImSLYBIv1o4X1M8cc8GBs5tU1E.woff2) format("woff2");
+    unicode-range: U+0000-00FF, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link {
+    padding-left: 30px;
+
+}
+
+.nav-item .has-treeview .nav-item .nav-link {
+    padding-left: 40px;
+
+}
+
+[class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-treeview {
+    background-color: gray !important;
+}
+
+.nav-sidebar .menu-open>.nav-treeview {
+    background-color: #A0A0A0;
+}
+
+.nav-link p {
+    color: white;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active,
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus,
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color: #00CCFF;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active,
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus,
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active p {
+    color: black;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.cards .card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.cards .card .inner-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cards>#dash_blue {
+    background-color: #17a2b8;
+}
+
+.cards>#dash_green {
+    background-color: #28a745;
+}
+
+.cards>#dash_yellow {
+    background-color: #ffc107;
+}
+
+.cards>#dash_red {
+    background-color: #dc3545;
+}
+
+.cards .more {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .15);
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards .more:hover {
+    background-color: rgba(0, 0, 0, .35);
+    ;
+}
+
+.cards .more>* {
+    color: white;
+    text-decoration: none;
+}
+
+.cards .more>i {
+    margin-bottom: -2px !important;
+}
+
+.cards .card .infos {
+    width: 70%;
+    color: white;
+}
+
+.cards .card .infos .value {
+    font-family: Nunito Sans;
+    font-size: 2.3rem;
+}
+
+.cards .card .infos .title {
+    font-family: Nunito Sans;
+    font-size: 1rem;
+}
+
+
+.cards .card .icon i {
+    width: 30%;
+    color: rgba(0, 0, 0, .15);
+}
+
+.table-actions {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+#swalDefaultSuccess {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-left: 5px;
+    color: #6c757d;
+}
+
+#swalDefaultSuccess:hover {
+    color: red;
+}
+
+.charts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.charts > .card{
+    width: 90%;
+}
+
+.charts .card-body{
+    max-height: fit-content !important;
+}

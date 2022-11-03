@@ -1,0 +1,13 @@
+.cards{
+    background-color: red;
+}
+
+.card-employees{
+    border-radius: 10px;
+    display: none;
+    background-color: red;
+}
+
+.card-employees h1{
+    color: red;
+}
